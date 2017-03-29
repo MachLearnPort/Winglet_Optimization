@@ -1,0 +1,80 @@
+Winglet
+#Mach
+0.0
+#IYsym  IZsym  ZSym
+0  0  0.0
+#Sref  Cref  Bref
+49.97  2.9215  16.7881
+#Xref  Yref  Zref
+0.12811  0  0
+0.015
+#
+#
+#====================================================================
+SURFACE
+WING
+#
+#Nchordwise  Cspace   Nspanwise   Sspace
+8.0  1.0  12.0  1.0
+#
+Index
+1
+#
+YDUPLICATE
+0.0
+#
+#-------------------------------------------------------------
+SECTION
+#Xle  Yle  Zle  Chord  Ainc  Nspanwise  Sspace
+0  0  0  3.843  0  0  0
+#
+AFIL
+C:\Thesis\Airfoil\EPPLER560.dat
+#
+#
+#-------------------------------------------------------------
+SECTION
+#Xle  Yle  Zle  Chord  Ainc  Nspanwise  Sspace
+0  16.764  0  2  0  0  0
+#
+AFIL
+C:\Thesis\Airfoil\EPPLER560.dat
+#
+#====================================================================
+SURFACE
+WINGLET
+#
+#Nchordwise  Cspace   Nspanwise   Sspace
+5  1.0  6.0  1.0
+#
+Index
+1
+#
+YDUPLICATE
+0
+#
+#-------------------------------------------------------------
+SECTION
+#Xle  Yle  Zle  Chord  Ainc  Nspanwise  Sspace
+0.97059  0  0  0.94059  0  0  0
+#
+AFIL
+C:\Thesis\Airfoil\NACA0006.dat
+#
+Translate
+#dX  dY  dZ
+0  16.7642  0
+#
+#-------------------------------------------------------------
+SECTION
+#Xle  Yle  Zle  Chord  Ainc  Nspanwise  Sspace
+0.39223  0.023875  1.9029  0.10517  0  0  0
+#
+AFIL
+C:\Thesis\Airfoil\NACA0006.dat
+#
+Translate
+#dX  dY  dZ
+0  16.7642  0
+#
+#-------------------------------------------------------------

@@ -1,0 +1,7 @@
+clear
+clc
+dosCommand=sprintf('%s\\avl.exe < %s','C:\Thesis','C:\Thesis\Run\run_file.txt');
+system(dosCommand ,'-echo');
+fid=fopen('C:\Thesis\Force_Files\Forces');
+A=textscan(fid,'%u %f %f %f %f %f %f %f %f %f %f %f %f', 'HeaderLines', 20, 'CommentStyle', 'N');
+fclose(fid);

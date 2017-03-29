@@ -1,0 +1,12 @@
+load
+C:\Thesis\AVL_Files\AVL_file.avl
+mass
+C:\Thesis\MASS_Files\mass_file.mass
+case
+C:\Thesis\Case_Files\case_file
+OPER
+X
+W
+C:\Thesis\Force_Files\Forces
+
+QUIT
